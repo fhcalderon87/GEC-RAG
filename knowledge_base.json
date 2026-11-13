@@ -1,0 +1,902 @@
+{
+  "R:NOUN": {
+    "error_type": "R:NOUN",
+    "tier": 1,
+    "frequency": 8069,
+    "frequency_pct": 16.09,
+    "examples": [
+      {
+        "original_sentence": "also, I will go to study with my smart friend, also I will to attend private class with new teachers because they will help me to achieve my goals.",
+        "corrected_sentence": "Also, I will go to study with my smart friend. Also I will attend private classes with new teachers because they will help me to achieve my goals.",
+        "error_span": "friend,",
+        "correction": "friend."
+      },
+      {
+        "original_sentence": "Currently schools have many challenges to face in order to not only maintain their tuition but also to keep their levels of educations so as to prepare the students in better ways.",
+        "corrected_sentence": "Currently schools have many challenges to face in order to not only maintain their tuition but also to keep their levels of education, so as to prepare their students in better ways.",
+        "error_span": "educations",
+        "correction": "education,"
+      },
+      {
+        "original_sentence": "In concluson, some people said we can learn a lot of new things from media, but others against them.",
+        "corrected_sentence": "In conclusion, some people say we can learn a lot of new things from the media, but others are against them. NA,.",
+        "error_span": "concluson,",
+        "correction": "conclusion,"
+      },
+      {
+        "original_sentence": "However. the question is; if you can make a choice, would you like to live a long calm life or an intensive short one?",
+        "corrected_sentence": "However, the question is: if you can make a choice, would you like to live a long calm life or an intensive short one?",
+        "error_span": "is;",
+        "correction": "is:"
+      },
+      {
+        "original_sentence": "So in conclusion lying is most of the time just postpone the drama, so only lie to your children or grandchildren and only if necessary.",
+        "corrected_sentence": "So in conclusion, lying is most of the time just postponing the drama, so only lie to your children or grandchildren and only if necessary.",
+        "error_span": "conclusion",
+        "correction": "conclusion,"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Wrong Noun Form\n\n2. WHAT IT IS: This error involves using the wrong form of a noun — for example, using a countable form when an uncountable one is needed, choosing the wrong word class (a verb instead of a noun), or replacing one noun with another that does not fit the meaning of the sentence.\n\n3. WHY IT IS DIFFICULT: English nouns are challenging because some have irregular forms, some cannot be made plural at all (uncountable nouns like \"education\" or \"information\"), and many words look similar but belong to different word classes. Learners often apply regular rules (adding -s, -tion, -ment) where they do not apply.\n\n4. HOW TO FIX IT: When you write a noun, ask yourself two questions: (1) Is this noun countable or uncountable in this context? Uncountable nouns like \"education,\" \"advice,\" and \"information\" cannot take a plural -s. (2) Is this the right word class? If you need a noun, check that you are not using a verb or adjective form instead.\n\n5. CORPUS INSIGHT: A very common pattern in learner writing is adding -s to uncountable nouns — for example, writing \"educations\" instead of \"education,\" or \"informations\" instead of \"information.\" These nouns refer to general concepts and do not have a plural form in English.\n\n6. EXAMPLE:\n   - Before: \"Schools need to keep their levels of educations high.\"\n   - After: \"Schools need to keep their levels of education high.\"\n   - Explanation: \"Education\" is an uncountable noun in English and cannot be made plural by adding -s. It refers to the general concept, not individual units.",
+    "manually_reviewed": true,
+    "retrieval_keys": [
+      "R:NOUN",
+      "r noun",
+      "noun"
+    ]
+  },
+  "R:ORTH": {
+    "error_type": "R:ORTH",
+    "tier": 1,
+    "frequency": 4089,
+    "frequency_pct": 8.15,
+    "examples": [
+      {
+        "original_sentence": "I have been in alkhobar city before three months ago it was a great trip with a beautiful sister and brother.",
+        "corrected_sentence": "I was in Alkhobar city three months ago. It was a great trip with my beautiful sister and brother.",
+        "error_span": "it",
+        "correction": "It"
+      },
+      {
+        "original_sentence": "There are a lot of facilities but One of the most famous landmarks is shibuya intersection.",
+        "corrected_sentence": "There are a lot of facilities but one of the most famous landmarks is Shibuya intersection.",
+        "error_span": "One",
+        "correction": "one"
+      },
+      {
+        "original_sentence": "This is the second time I went to Sai Sai Birthday concert.",
+        "corrected_sentence": "This is the second time I went to a Sai Sai Birthday Concert.",
+        "error_span": "concert.",
+        "correction": "Concert."
+      },
+      {
+        "original_sentence": "in the pass when I have free time I go to see my laptop.",
+        "corrected_sentence": "In the past when I had free time I went to see my laptop.",
+        "error_span": "in",
+        "correction": "In"
+      },
+      {
+        "original_sentence": "My fields of learning make me happy, chemical reactions I don't talk about because my major is chemistry.",
+        "corrected_sentence": "My fields of learning make me happy. Chemical reactions I don't talk about because my major is chemistry.",
+        "error_span": "chemical",
+        "correction": "Chemical"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Capitalization Errors\n\n2. WHAT IT IS: This error involves incorrect use of capital letters in writing. It often occurs when a lowercase letter is used instead of a capital letter at the beginning of a sentence or for proper nouns, or when a capital letter is used unnecessarily.\n\n3. WHY IT IS DIFFICULT: Capitalization rules in English can be tricky because they require attention to specific details, such as the start of sentences and the names of people, places, and specific events. These rules may differ from those in a learner's native language, making it easy to overlook or misapply them.\n\n4. HOW TO FIX IT: Always capitalize the first word of a sentence and the names of specific people, places, and events. When writing, review your sentences to ensure the first word and any proper nouns begin with a capital letter.\n\n5. CORPUS INSIGHT: In real learner writing, capitalization errors often occur at the beginning of sentences and with proper nouns. For example, learners may forget to capitalize the first word of a sentence or the names of cities and events.\n\n6. EXAMPLE: \n   - Before: \"in the pass when I have free time I go to see my laptop.\"\n   - After: \"In the past when I had free time I went to see my laptop.\"\n   - Explanation: The word \"In\" is capitalized because it is the first word of the sentence. Always check that the first word of your sentences is capitalized.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:ORTH",
+      "r orth",
+      "orth"
+    ]
+  },
+  "M:DET": {
+    "error_type": "M:DET",
+    "tier": 1,
+    "frequency": 3273,
+    "frequency_pct": 6.52,
+    "examples": [
+      {
+        "original_sentence": "First people said that zoos are good to learn about animals I am with them but if the zookeeper doesn't punish animals or treat them like dirt.",
+        "corrected_sentence": "The first people said that zoos are good to learn about animals and I am with them, but provided the zookeeper doesn't punish animals or treat them like dirt.",
+        "error_span": "First",
+        "correction": "The first"
+      },
+      {
+        "original_sentence": "In my opinion, Zoo is a good place to know about the life of wild animal as well as pet animals.",
+        "corrected_sentence": "In my opinion, a zoo is a good place to learn about the life of wild animals as well as pet animals.",
+        "error_span": "Zoo",
+        "correction": "a zoo"
+      },
+      {
+        "original_sentence": "5% Rest of the students had a different opinion.",
+        "corrected_sentence": "5% The rest of the students had a different opinion.",
+        "error_span": "Rest",
+        "correction": "The rest"
+      },
+      {
+        "original_sentence": "Tablet is also used to read a document and books, so many people believed that this device will replace paper and books in the near future.",
+        "corrected_sentence": "A tablet is also used to read documents and books, so many people believe that this device will replace paper and books in the near future.",
+        "error_span": "Tablet",
+        "correction": "A tablet"
+      },
+      {
+        "original_sentence": "Same problem is for healthy food: poor can buy cheap food, and cheap food is dangerous, unhealthy, fat, rich of preservatives and sugars.",
+        "corrected_sentence": "The same problem is with healthy food: the poor can buy cheap food, and cheap food is dangerous, unhealthy, fat, rich in preservatives and sugars.",
+        "error_span": "Same",
+        "correction": "The same"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Missing Articles\n\n2. WHAT IT IS: This error involves leaving out necessary articles like \"a,\" \"an,\" or \"the\" before nouns. Articles are small words that help specify whether we are talking about something specific or general.\n\n3. WHY IT IS DIFFICULT: Many learners struggle with articles because not all languages use them in the same way as English. Deciding whether to use \"a,\" \"an,\" or \"the\" can be confusing, especially when the rules seem inconsistent or when articles are not used in the learner's native language.\n\n4. HOW TO FIX IT: When you write, ask yourself if the noun is specific or general. Use \"the\" for specific nouns that both you and the reader know about. Use \"a\" or \"an\" for general nouns that are mentioned for the first time or are not specific.\n\n5. CORPUS INSIGHT: Learners often omit articles before nouns that are well-known or commonly discussed, such as \"zoo\" or \"tablet,\" assuming the reader understands without them. However, articles are still needed to clarify whether the noun is specific or general.\n\n6. EXAMPLE: \n   - Before: \"Tablet is also used to read a document and books.\"\n   - After: \"A tablet is also used to read documents and books.\"\n   - Explanation: The word \"tablet\" is a general noun here, so we use \"a\" to indicate any tablet, not a specific one.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "M:DET",
+      "m det",
+      "det"
+    ]
+  },
+  "R:SPELL": {
+    "error_type": "R:SPELL",
+    "tier": 1,
+    "frequency": 3647,
+    "frequency_pct": 7.27,
+    "examples": [
+      {
+        "original_sentence": "It's helpful many ways for example it help you to descover and learn new vocabulary every day.",
+        "corrected_sentence": "It's helpful in many ways, for example, it helps you to discover and learn new vocabulary every day.",
+        "error_span": "descover",
+        "correction": "discover"
+      },
+      {
+        "original_sentence": "The conclusion here while body launguge may be helpful, it is important to pay attention on the right signs .",
+        "corrected_sentence": "The conclusion here is while body language may be helpful, it is important to pay attention to the right signs.",
+        "error_span": "launguge",
+        "correction": "language"
+      },
+      {
+        "original_sentence": "The advantages to who study abroad is meet new people than have other cultures, that is help you a lot, depends on career you will follow, if you want be a flight attendant, it is good to you.",
+        "corrected_sentence": "The advantage for those who study abroad is they meet new people that have other cultures, which helps them a lot, depending on the career they will follow. If you want to be a flight attendant, it is good for you.",
+        "error_span": "than",
+        "correction": "that"
+      },
+      {
+        "original_sentence": "For the learning area, I am pleased with the comfortable environment like worm and cozy room.",
+        "corrected_sentence": "For the learning area, I am pleased with the comfortable environment, like warm and cozy rooms.",
+        "error_span": "worm",
+        "correction": "warm"
+      },
+      {
+        "original_sentence": "Adopting healthy lifestyle might be difficult for some people, but we need think about the physical and pyschological consequences of not adopting healthy life.",
+        "corrected_sentence": "Adopting a healthy lifestyle might be difficult for some people, but we need to think about the physical and psychological consequences of not adopting a healthy lifestyle.",
+        "error_span": "pyschological",
+        "correction": "psychological"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Spelling Error\n\n2. WHAT IT IS: This error occurs when a word is spelled incorrectly. The misspelled word may still look or sound like the intended word, but the incorrect spelling can change the meaning of the sentence or make it harder to understand.\n\n3. WHY IT IS DIFFICULT: English spelling is not fully phonetic — many words are not spelled the way they sound. This is especially difficult for learners because similar-sounding words can have very different spellings (for example, \"than\" vs \"that,\" or \"worm\" vs \"warm\"). Errors often happen not from carelessness but from relying on how a word sounds rather than how it is spelled.\n\n4. HOW TO FIX IT: After writing, re-read your text slowly and focus on individual words rather than meaning. Pay special attention to words you are less familiar with. For words that look unusual, double-check by breaking them into parts — for example, \"psy-cho-lo-gi-cal\" — to identify where the error may be. A spell-checker can help catch obvious errors but will miss cases where a misspelling produces a real word (e.g. \"worm\" instead of \"warm\").\n\n5. CORPUS INSIGHT: A notable pattern in learner writing is spelling errors that produce a different real English word, making them easy to miss. For example, writing \"worm\" instead of \"warm,\" or \"than\" instead of \"that.\" These are particularly problematic because spell-checkers will not flag them — careful re-reading is the only reliable way to catch them.\n\n6. EXAMPLE:\n   - Before: \"I am pleased with the comfortable environment, like worm and cozy rooms.\"\n   - After: \"I am pleased with the comfortable environment, like warm and cozy rooms.\"\n   - Explanation: \"Worm\" is a real English word but wrong here — the intended word is \"warm.\" This type of spelling error cannot be caught automatically and requires careful reading.",
+    "manually_reviewed": true,
+    "retrieval_keys": [
+      "R:SPELL",
+      "r spell",
+      "spell"
+    ]
+  },
+  "R:NOUN:NUM": {
+    "error_type": "R:NOUN:NUM",
+    "tier": 1,
+    "frequency": 1800,
+    "frequency_pct": 3.59,
+    "examples": [
+      {
+        "original_sentence": "For example a children that learn as the same time he plays learn a lot because he or she is in a good humor.",
+        "corrected_sentence": "For example, a child that learns at the same time that he plays learns a lot because he or she is in a good mood.",
+        "error_span": "children",
+        "correction": "child"
+      },
+      {
+        "original_sentence": "This kind of works allow students to obtain some experience, but there are not many places which want to give opportunities to young people or do not offer a healthy atmosphere for them.",
+        "corrected_sentence": "This kind of work allows students to obtain some experience, but there are not many places which want to give opportunities to young people or do not offer a healthy atmosphere for them.",
+        "error_span": "works",
+        "correction": "work"
+      },
+      {
+        "original_sentence": "Everyone is unique, and every teachers also are.",
+        "corrected_sentence": "Everyone is unique, and every teacher also is.",
+        "error_span": "teachers",
+        "correction": "teacher"
+      },
+      {
+        "original_sentence": "This type offices have including different advantages.",
+        "corrected_sentence": "These types of offices have different advantages.",
+        "error_span": "type",
+        "correction": "types"
+      },
+      {
+        "original_sentence": "In conclusion, a lot of opinions about this subject all of them have a good causes to show their views.",
+        "corrected_sentence": "In conclusion, there are a lot of opinions about this subject. All of them have a good cause to show their views.",
+        "error_span": "causes",
+        "correction": "cause"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Singular and Plural Noun Confusion\n\n2. WHAT IT IS: This error occurs when learners mistakenly use a plural noun form instead of a singular one, or vice versa. This often happens when the noun should match the number of the subject or the context in the sentence.\n\n3. WHY IT IS DIFFICULT: English nouns can be tricky because they change form depending on whether they are singular or plural. This can be confusing, especially when the context or sentence structure makes it hard to decide which form to use. Additionally, some nouns have irregular plural forms or do not change at all, adding to the complexity.\n\n4. HOW TO FIX IT: To avoid this error, always check if the noun should be singular or plural based on the context. Ask yourself: \"Am I talking about one thing or more than one?\" If it's one, use the singular form; if it's more than one, use the plural form. Also, pay attention to words like \"every,\" \"each,\" \"this kind of,\" or \"a lot of,\" as they often indicate whether the noun should be singular or plural.\n\n5. CORPUS INSIGHT: In the examples provided, the error often occurs when the noun is part of a phrase like \"this kind of\" or \"every,\" which require a singular noun, or when the context clearly indicates a singular noun is needed, such as \"a child\" instead of \"children.\"\n\n6. EXAMPLE: \n   - Before: \"Every teachers also are.\"\n   - After: \"Every teacher also is.\"\n   - Explanation: The word \"every\" is used to talk about each individual item in a group, so it should be followed by a singular noun. In this case, \"teachers\" should be \"teacher\" to match \"every.\"",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:NOUN:NUM",
+      "r noun num",
+      "num"
+    ]
+  },
+  "R:PREP": {
+    "error_type": "R:PREP",
+    "tier": 1,
+    "frequency": 3337,
+    "frequency_pct": 6.65,
+    "examples": [
+      {
+        "original_sentence": "There are many websites provide many materials for learning for example some people can improve their writing skills from some online courses.",
+        "corrected_sentence": "There are many websites that provide a lot of materials for learning, for example, some people can improve their writing skills with some online courses.",
+        "error_span": "from",
+        "correction": "with"
+      },
+      {
+        "original_sentence": "The main reason why I believe in that, is because the technology has a big influence in all subjects in the world, and the School is going to be influentiated by technology as the other subjects.",
+        "corrected_sentence": "The main reason why I believe that is because technology has a big influence on all subjects in the world, and school is going to be influenced by technology like the other subjects.",
+        "error_span": "in",
+        "correction": "on"
+      },
+      {
+        "original_sentence": "After all, I would like to recommend this website to you, readers.",
+        "corrected_sentence": "All in all, I would like to recommend this website to you, readers.",
+        "error_span": "After",
+        "correction": "in"
+      },
+      {
+        "original_sentence": "From my view, they both have their own drawbacks and benefits.",
+        "corrected_sentence": "In my view, they have their own drawbacks and benefits.",
+        "error_span": "From",
+        "correction": "In"
+      },
+      {
+        "original_sentence": "Thank you for looking at my house while I am in holidat,I really appreciate the effort!",
+        "corrected_sentence": "Thank you for looking after my house while I am on holiday, I really appreciate the effort!",
+        "error_span": "in",
+        "correction": "on"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Preposition Confusion\n\n2. WHAT IT IS: This error involves using the wrong preposition in a sentence, which can change the meaning or make the sentence sound unnatural. Prepositions are small words like \"in,\" \"on,\" \"at,\" and \"with\" that show relationships between different parts of a sentence.\n\n3. WHY IT IS DIFFICULT: Prepositions are tricky because they often don't translate directly between languages, and their use can depend on context or specific phrases. English has many prepositions, and they are used in fixed expressions that might not follow a logical pattern, making them hard to memorize and apply correctly.\n\n4. HOW TO FIX IT: Pay attention to common phrases and expressions in English, and try to learn them as whole units rather than focusing on individual words. When writing, ask yourself if the preposition you are using is part of a fixed expression or if it matches the context of your sentence. Practice by reading and listening to English to get a feel for which prepositions are used with certain words.\n\n5. CORPUS INSIGHT: A common pattern is using \"in\" instead of \"on\" or \"with,\" or \"from\" instead of \"in\" or \"on,\" as seen in the examples. This suggests that learners might mix up prepositions that seem similar but have distinct uses in English.\n\n6. EXAMPLE: \n   - Before: \"From my view, they both have their own drawbacks and benefits.\"\n   - After: \"In my view, they both have their own drawbacks and benefits.\"\n   - Explanation: The phrase \"in my view\" is a fixed expression in English used to express an opinion. Using \"from\" instead of \"in\" changes the meaning and makes the sentence sound awkward. Learning these fixed expressions can help you choose the correct preposition.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:PREP",
+      "r prep",
+      "prep"
+    ]
+  },
+  "R:VERB:TENSE": {
+    "error_type": "R:VERB:TENSE",
+    "tier": 1,
+    "frequency": 1938,
+    "frequency_pct": 3.86,
+    "examples": [
+      {
+        "original_sentence": "Unfortunately I couldn't be present to your party because my professor ask me to do some research with him so I must stay at school this weekend.",
+        "corrected_sentence": "Unfortunately, I can't be present at your party because my professor has asked me to do some research with him, so I must stay at school this weekend.",
+        "error_span": "ask",
+        "correction": "has asked"
+      },
+      {
+        "original_sentence": "Finally, I hope I could get a good score in the exam and could attain a good school because of my good English skill in the future.",
+        "corrected_sentence": "Finally, I hope I can get a good score in the exam and can enter a good school because of my good English skills in the future.",
+        "error_span": "could",
+        "correction": "can"
+      },
+      {
+        "original_sentence": "While she is entering the building, she felt that something is wrong.",
+        "corrected_sentence": "While she is entering the building, she feels that something is wrong.",
+        "error_span": "felt",
+        "correction": "feels"
+      },
+      {
+        "original_sentence": "You can come to my house when you want, my parents come at 11 pm and my sister is out of town, so, no problem if you want to come early.",
+        "corrected_sentence": "You can come to my house when you want, my parents are coming at 11 pm and my sister is out of town, so, no problem if you want to come early.",
+        "error_span": "come",
+        "correction": "are coming"
+      },
+      {
+        "original_sentence": "Everybody has relaxing activities in their spare time.",
+        "corrected_sentence": "Everybody does relaxing activities in their spare time.",
+        "error_span": "has",
+        "correction": "does"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Verb Tense Confusion\n\n2. WHAT IT IS: This error involves using the wrong verb tense in a sentence, which can change the meaning or make the sentence unclear. The examples show mistakes in choosing the correct tense to match the time of the action.\n\n3. WHY IT IS DIFFICULT: English verb tenses can be tricky because they are used to express not just when something happens, but also how it relates to other events. Learners often struggle to choose the right tense, especially when different tenses are needed in the same sentence.\n\n4. HOW TO FIX IT: Pay attention to the time of the action you are describing. Ask yourself: Is it happening now, in the past, or in the future? Use present tense for actions happening now, past tense for actions that have already happened, and future tense for actions that will happen. Also, consider if the action is ongoing or completed, as this will affect your choice of tense.\n\n5. CORPUS INSIGHT: A common pattern in these errors is mixing present and past tenses incorrectly within the same sentence. For example, learners may use a present tense verb when a past tense is needed, or vice versa.\n\n6. EXAMPLE: \n   - Before: \"While she is entering the building, she felt that something is wrong.\"\n   - After: \"While she is entering the building, she feels that something is wrong.\"\n   - Explanation: The action of feeling something wrong is happening at the same time as entering the building, so both verbs should be in the present tense to show they are happening now.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:VERB:TENSE",
+      "r verb tense",
+      "tense"
+    ]
+  },
+  "R:VERB": {
+    "error_type": "R:VERB",
+    "tier": 1,
+    "frequency": 2453,
+    "frequency_pct": 4.89,
+    "examples": [
+      {
+        "original_sentence": "To summarise, I wish to see how the future generation will change this is why the length of my life is important to me .",
+        "corrected_sentence": "To summarise, I wish to see how the future generation will change. This is why the length of my life is important to me.",
+        "error_span": "change",
+        "correction": "change."
+      },
+      {
+        "original_sentence": "Unfortunately I couldn't be present to your party because my professor ask me to do some research with him so I must stay at school this weekend.",
+        "corrected_sentence": "Unfortunately, I can't be present at your party because my professor has asked me to do some research with him, so I must stay at school this weekend.",
+        "error_span": "couldn't",
+        "correction": "can't"
+      },
+      {
+        "original_sentence": "Well, I think you will like those movies, you can use one weekend to watch it.",
+        "corrected_sentence": "Well, I think you will like those movies, you can spend one weekend to watch them.",
+        "error_span": "use",
+        "correction": "spend"
+      },
+      {
+        "original_sentence": "Concerning my own experience, I am going to spend some lines about my best holiday ever.",
+        "corrected_sentence": "Concerning my own experience, I am going to write some lines about my best holiday ever.",
+        "error_span": "spend",
+        "correction": "write"
+      },
+      {
+        "original_sentence": "I em curious to know what you like to eat in your country , write email to me.",
+        "corrected_sentence": "I am curious to know what you like to eat in your country, write an email to me.",
+        "error_span": "em",
+        "correction": "am"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Verb Usage Errors\n\n2. WHAT IT IS: This error involves using the wrong verb form or choosing an incorrect verb for the context. It can also include missing auxiliary verbs or incorrect verb tense.\n\n3. WHY IT IS DIFFICULT: English verbs can be challenging because they change form based on tense, aspect, and sometimes even the subject. Additionally, some verbs have specific meanings and uses that may not directly translate from other languages, making it hard to choose the right one.\n\n4. HOW TO FIX IT: Pay attention to the context and meaning you want to convey. Ask yourself if the verb matches the time (past, present, future) and the action you are describing. If you are unsure, look up the verb in a dictionary or ask a teacher for help.\n\n5. CORPUS INSIGHT: Learners often struggle with verb forms that are similar in meaning but differ in usage, such as \"use\" vs. \"spend\" or \"write\" vs. \"spend.\" They also sometimes omit necessary auxiliary verbs like \"has\" in perfect tenses or choose the wrong tense altogether.\n\n6. EXAMPLE: \n   - Before: \"Unfortunately I couldn't be present to your party because my professor ask me to do some research with him so I must stay at school this weekend.\"\n   - After: \"Unfortunately, I can't be present at your party because my professor has asked me to do some research with him, so I must stay at school this weekend.\"\n   \n   Explanation: The original sentence used \"couldn't\" and \"ask,\" which did not match the intended meaning. \"Couldn't\" was corrected to \"can't\" to indicate a present inability, and \"ask\" was changed to \"has asked\" to correctly use the present perfect tense, showing that the action of asking is relevant to the present situation.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:VERB",
+      "r verb",
+      "verb"
+    ]
+  },
+  "R:VERB:FORM": {
+    "error_type": "R:VERB:FORM",
+    "tier": 1,
+    "frequency": 2022,
+    "frequency_pct": 4.03,
+    "examples": [
+      {
+        "original_sentence": "But for the others is enjoyable to see animals be free and live somewhere they belong.",
+        "corrected_sentence": "But for others it is enjoyable to see animals being free and living somewhere they belong.",
+        "error_span": "be",
+        "correction": "being"
+      },
+      {
+        "original_sentence": "Firstly, when you are sad you listen to music, when you are happy, or mad, you keep listen and that makes you to forgot every problem from your head.",
+        "corrected_sentence": "Firstly, when you are sad you listen to music, when you are happy, or mad, you keep listening and that makes you forgot every problem in your head.",
+        "error_span": "listen",
+        "correction": "listening"
+      },
+      {
+        "original_sentence": "Learn how to play an instrument at a basic level maybe is a simple thing but if you want to be master at the instrument you are playing then it is a different story.",
+        "corrected_sentence": "Learning how to play an instrument at a basic level maybe is a simple thing but if you want to be a master at the instrument you are playing then it is a different story.",
+        "error_span": "Learn",
+        "correction": "Learning"
+      },
+      {
+        "original_sentence": "If you have a chance to live on your own I suggest take this chance.",
+        "corrected_sentence": "If you have a chance to live on your own I suggest taking this chance.",
+        "error_span": "take",
+        "correction": "taking"
+      },
+      {
+        "original_sentence": "The reason why most of the animals that are in zoos today are the offspring of captures animals from the generation before is the fact that the descendants are unable to cope in the wild by themselves.",
+        "corrected_sentence": "The reason why most of the animals that are in zoos today are the offspring of captured animals from the generation before is the fact that the descendants are unable to cope in the wild by themselves.",
+        "error_span": "captures",
+        "correction": "captured"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Incorrect Verb Form\n\n2. WHAT IT IS: This error occurs when a verb is used in the wrong form, such as using the base form instead of the gerund (verb + -ing) or past participle form. This can change the meaning or grammatical correctness of a sentence.\n\n3. WHY IT IS DIFFICULT: English verbs can take many forms depending on their function in a sentence, such as showing ongoing action, completed action, or acting as a noun. Choosing the correct verb form can be challenging because it requires understanding the role of the verb in the sentence and the context in which it is used.\n\n4. HOW TO FIX IT: To choose the correct verb form, first identify the role of the verb in the sentence. If the verb is used as a subject or object, use the gerund form (verb + -ing). If the verb is part of a passive construction or needs to show a completed action, use the past participle form. Practice identifying these roles in sentences to improve accuracy.\n\n5. CORPUS INSIGHT: In the examples provided, learners often use the base form of the verb when the gerund form is needed, especially when the verb acts as a subject or object in the sentence. For instance, \"be\" should be \"being\" and \"listen\" should be \"listening.\"\n\n6. EXAMPLE: \n   - Before: \"If you have a chance to live on your own I suggest take this chance.\"\n   - After: \"If you have a chance to live on your own I suggest taking this chance.\"\n   - Explanation: In this sentence, \"taking\" is the correct form because it acts as the object of the verb \"suggest.\" Using the gerund form \"taking\" makes the sentence grammatically correct.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:VERB:FORM",
+      "r verb form",
+      "form"
+    ]
+  },
+  "R:DET": {
+    "error_type": "R:DET",
+    "tier": 1,
+    "frequency": 1903,
+    "frequency_pct": 3.79,
+    "examples": [
+      {
+        "original_sentence": "During this time you usually read a book but you are at your office you prefer to use digital ones because it is much practical.",
+        "corrected_sentence": "During those times you usually read a book, but when you are at your office you prefer to use digital ones because it is more practical.",
+        "error_span": "this",
+        "correction": "those"
+      },
+      {
+        "original_sentence": "For instance in Czech republic there are the lack of doctors in these places even when the doctors could get bigger salary there.",
+        "corrected_sentence": "For instance in the Czech republic there is a lack of doctors in these places even when the doctors could get bigger salary there.",
+        "error_span": "the",
+        "correction": "a"
+      },
+      {
+        "original_sentence": "The article is based on reasons for learning English and I will explain why it is important to me.",
+        "corrected_sentence": "This article is based on reasons for learning English and I will explain why it is important to me.",
+        "error_span": "The",
+        "correction": "This"
+      },
+      {
+        "original_sentence": "There are less known people between them and in the time of emergency its been difficult to get help since it is not the native country a student comes from.",
+        "corrected_sentence": "There are fewer people that they know and in time of an emergency it is difficult to get help since they are not in their native country.",
+        "error_span": "the",
+        "correction": "their"
+      },
+      {
+        "original_sentence": "The teachers of the future will cherish the pupils and hold them in the center of their attention, the center that has been occupied by the teachers.",
+        "corrected_sentence": "The teachers of the future will cherish their pupils and hold them in the center of their attention, the center that has been occupied by the teachers.",
+        "error_span": "the",
+        "correction": "their"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Misuse of Articles and Demonstratives\n\n2. WHAT IT IS: This error involves using the wrong article (like \"the\" or \"a\") or demonstrative (like \"this\" or \"those\") in a sentence. It can change the meaning or clarity of what you are trying to say.\n\n3. WHY IT IS DIFFICULT: Articles and demonstratives are challenging because they often don't directly translate from other languages. English has specific rules for when to use \"the,\" \"a,\" \"this,\" \"those,\" and \"their,\" which can be confusing for learners.\n\n4. HOW TO FIX IT: To choose the correct word, ask yourself: Are you talking about something specific or general? Use \"the\" for specific things everyone knows about, and \"a\" for any one of many. Use \"this\" or \"these\" for things close to you in time or space, and \"that\" or \"those\" for things further away. Use \"their\" to show possession, like something belongs to someone.\n\n5. CORPUS INSIGHT: Learners often confuse \"the\" with \"a\" or \"this\" with \"the,\" which can make sentences unclear or change their meaning. For example, using \"the\" instead of \"a\" can make it sound like you are talking about something specific when you mean something general.\n\n6. EXAMPLE: \n   - Before: \"The article is based on reasons for learning English.\"\n   - After: \"This article is based on reasons for learning English.\"\n   - Explanation: In the corrected sentence, \"This\" is used instead of \"The\" to specify the particular article the speaker is referring to, making it clear and specific.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:DET",
+      "r det",
+      "det"
+    ]
+  },
+  "R:MORPH": {
+    "error_type": "R:MORPH",
+    "tier": 2,
+    "frequency": 1270,
+    "frequency_pct": 2.53,
+    "examples": [
+      {
+        "original_sentence": "And you have a big argue with your friend about everything you said to him, what was not true.",
+        "corrected_sentence": "And you have a big argument with your friend about everything you said to him that was not true.",
+        "error_span": "argue",
+        "correction": "argument"
+      },
+      {
+        "original_sentence": "One way is only program with education videos. For example National geographic, et cetery.",
+        "corrected_sentence": "One solution would be to only programme educational videos. For example, National Geographic, etc.",
+        "error_span": "program",
+        "correction": "programme"
+      },
+      {
+        "original_sentence": "Also, many employees say that this type of designing has many desadvantges for them, one of which is that sometimes the workplace become so annoying because of the amount of people and the noises would make you work insufficiently.",
+        "corrected_sentence": "Also, many employees say that this type of design has many disadvantages for them, one of which is that sometimes the workplace becomes so annoying because of the amount of people and the noises make you work insufficiently.",
+        "error_span": "designing",
+        "correction": "design"
+      },
+      {
+        "original_sentence": "An example is the fail to examine if the text I wrote matched with the platform asked.",
+        "corrected_sentence": "An example is the failure to examine if the text I wrote matched with what the platform asked.",
+        "error_span": "fail",
+        "correction": "failure"
+      },
+      {
+        "original_sentence": "Hi Jack, I think different celebrate birthdays in my country.",
+        "corrected_sentence": "Hi Jack, I think there are different celebrations for birthdays in my country.",
+        "error_span": "celebrate",
+        "correction": "celebrations"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Word Form Confusion\n\n2. WHAT IT IS: This error occurs when a learner uses the wrong form of a word, such as using a verb instead of a noun or an adjective instead of a noun. For example, using \"argue\" instead of \"argument.\"\n\n3. WHY IT IS DIFFICULT: English has many words that look similar but have different forms and meanings, like \"argue\" (verb) and \"argument\" (noun). It can be challenging for learners to remember which form to use, especially when the forms are similar or when their native language uses the same form for both.\n\n4. HOW TO FIX IT: When writing, think about the role of the word in the sentence. Ask yourself if you need a noun (a thing), a verb (an action), or an adjective (a description). If you’re unsure, try replacing the word with a simpler synonym you know well and see if it fits the sentence.\n\n5. CORPUS INSIGHT: Learners often confuse verbs with nouns, such as \"argue\" with \"argument\" or \"fail\" with \"failure,\" especially when the verb and noun forms are similar.\n\n6. EXAMPLE: \n   - Before: \"And you have a big argue with your friend about everything you said to him.\"\n   - After: \"And you have a big argument with your friend about everything you said to him.\"\n   - Explanation: In this sentence, \"argue\" is a verb, but the sentence needs a noun to describe the thing that happened, so \"argument\" is the correct choice.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:MORPH",
+      "r morph",
+      "morph"
+    ]
+  },
+  "U:DET": {
+    "error_type": "U:DET",
+    "tier": 2,
+    "frequency": 2562,
+    "frequency_pct": 5.11,
+    "examples": [
+      {
+        "original_sentence": "The music is good to do a lot of things such as running, cleaning, cooking...",
+        "corrected_sentence": "Music is good for doing a lot of things, such as running, cleaning, cooking...",
+        "error_span": "The music",
+        "correction": "Music"
+      },
+      {
+        "original_sentence": "The teachers have their own ways of teaching respectively, we cannot receive all techniques just from one teacher.",
+        "corrected_sentence": "Teachers all have their own ways of teaching, we cannot receive all techniques just from one teacher.",
+        "error_span": "The teachers",
+        "correction": "Teachers"
+      },
+      {
+        "original_sentence": "The television have advantages and disadvantages.",
+        "corrected_sentence": "Television has advantages and disadvantages.",
+        "error_span": "The television",
+        "correction": "Television"
+      },
+      {
+        "original_sentence": "The life is unthinkable without music because if there is no music in the world. People are depressed and sad because there is no option to help their concerns.",
+        "corrected_sentence": "Life is unthinkable without music because if there is no music in the world people will be depressed and sad because there is no option to alleviate their concerns.",
+        "error_span": "The life",
+        "correction": "Life"
+      },
+      {
+        "original_sentence": "All the world face many pandamics for old the time to now, but it is cant won for this all viruses of to the end.",
+        "corrected_sentence": "The whole world is facing many pandemics for old the time to now, but it is ca nt won for this all viruses of to the end.",
+        "error_span": "All the",
+        "correction": "The"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Unnecessary Article Usage\n\n2. WHAT IT IS: This error occurs when learners use the definite article \"the\" before nouns that do not require it. In English, some nouns are used without articles when they refer to general concepts or categories.\n\n3. WHY IT IS DIFFICULT: English articles can be tricky because their usage depends on whether a noun is specific or general. Learners often struggle with deciding when to use \"the\" because many languages have different rules for articles, or they might not use articles at all.\n\n4. HOW TO FIX IT: When writing or speaking, ask yourself if the noun refers to something specific or if it is a general idea or category. If it is general, like \"music\" or \"life,\" do not use \"the.\" Practice by identifying whether the noun in your sentence is specific or general.\n\n5. CORPUS INSIGHT: In the examples provided, learners often add \"the\" before nouns that represent general concepts or categories, such as \"music,\" \"teachers,\" \"television,\" and \"life.\" These nouns do not need \"the\" because they refer to a general idea rather than a specific instance.\n\n6. EXAMPLE: \n   - Before: The music is good to do a lot of things such as running, cleaning, cooking...\n   - After: Music is good for doing a lot of things, such as running, cleaning, cooking...\n   - Explanation: In this example, \"music\" refers to the general concept of music, not a specific piece of music, so \"the\" is not needed.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "U:DET",
+      "u det",
+      "det"
+    ]
+  },
+  "M:PREP": {
+    "error_type": "M:PREP",
+    "tier": 2,
+    "frequency": 1469,
+    "frequency_pct": 2.93,
+    "examples": [
+      {
+        "original_sentence": "The technology mall you can find it and shopping one.",
+        "corrected_sentence": "In the technology mall you can find it and shop for one.",
+        "error_span": "The",
+        "correction": "In the"
+      },
+      {
+        "original_sentence": "The world being so interconnected you must have this ability to interact with foreign people on these bases subjects.",
+        "corrected_sentence": "With the world being so interconnected, you must have this ability to interact with foreign people on these basic subjects.",
+        "error_span": "The",
+        "correction": "With the"
+      },
+      {
+        "original_sentence": "The story about stargate it will be travelling in time.",
+        "corrected_sentence": "Like in the story of Stargate, it will be travelling in time.",
+        "error_span": "The",
+        "correction": "Like in the"
+      },
+      {
+        "original_sentence": "One hand, most people with that decision of sports in the morning are mandatory, for example, the government prevents rode means of transportation, only use the Cycle or walk, when they're go to school or any educational institutons.",
+        "corrected_sentence": "On one hand, most people with that decision that sports in the morning are mandatory. For example, the government prevents road means of transportation, people can only use a bicycle or walk when they go to school or any educational institutions.",
+        "error_span": "One",
+        "correction": "On one"
+      },
+      {
+        "original_sentence": "For the Pets Tom & Jerry need to eat five times per day and they going to happy when you play with them.",
+        "corrected_sentence": "As for the pets, Tom & Jerry, they need to eat five times per day and they are going to be happy when you play with them.",
+        "error_span": "For",
+        "correction": "As for"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Missing Preposition\n\n2. WHAT IT IS: This error occurs when a necessary preposition is left out of a sentence or phrase. Prepositions are small words like \"in,\" \"on,\" \"with,\" \"for,\" and \"like\" that show the relationship between ideas — location, time, manner, or comparison.\n\n3. WHY IT IS DIFFICULT: Prepositions in English do not translate directly from other languages. The choice of preposition often depends on fixed expressions and context rather than logical rules, making them hard to learn systematically. Learners frequently omit them when the sentence still feels readable without them.\n\n4. HOW TO FIX IT: When you begin a sentence or phrase, ask yourself what relationship you are trying to express: location (\"In the city...\"), manner (\"With hard work...\"), comparison (\"Like many students...\"), or time (\"On Monday...\"). If the sentence describes a setting or context, it almost certainly needs an opening preposition.\n\n5. CORPUS INSIGHT: A common pattern in learner writing is beginning a sentence directly with a noun phrase — for example \"The world being interconnected...\" or \"One hand...\" — when the sentence actually requires an introductory preposition phrase such as \"With the world being interconnected...\" or \"On one hand...\" The noun phrase is correct but the preposition that should introduce it is missing.\n\n6. EXAMPLE:\n   - Before: \"The world being so interconnected, you must be able to interact with people from other cultures.\"\n   - After: \"With the world being so interconnected, you must be able to interact with people from other cultures.\"\n   - Explanation: The preposition \"With\" is needed to introduce the context or condition being described. Without it, the opening phrase is grammatically incomplete.",
+    "manually_reviewed": true,
+    "retrieval_keys": [
+      "M:PREP",
+      "m prep",
+      "prep"
+    ]
+  },
+  "R:VERB:SVA": {
+    "error_type": "R:VERB:SVA",
+    "tier": 2,
+    "frequency": 1440,
+    "frequency_pct": 2.87,
+    "examples": [
+      {
+        "original_sentence": "Because the Beetles was performing there.",
+        "corrected_sentence": "Because the Beetles were performing there.",
+        "error_span": "was",
+        "correction": "were"
+      },
+      {
+        "original_sentence": "I am one of that person who refuses to lie, but this shape of my personality caused me a lot of problems for all my life.",
+        "corrected_sentence": "I am one of those people who refuse to lie, but this shape of my personality caused me a lot of problems for all my life.",
+        "error_span": "refuses",
+        "correction": "refuse"
+      },
+      {
+        "original_sentence": "Really, music are not important in our lives.",
+        "corrected_sentence": "Really, music is not important in our lives.",
+        "error_span": "are",
+        "correction": "is"
+      },
+      {
+        "original_sentence": "For that reason, there are huge demand for website platforms and language teachers, as well as online resources for learning languages.",
+        "corrected_sentence": "For that reason, there is a huge demand for website platforms and language teachers, as well as online resources for learning languages.",
+        "error_span": "are",
+        "correction": "is"
+      },
+      {
+        "original_sentence": "For example, some of them claims that they can earn three times what they can earn in small villages.",
+        "corrected_sentence": "For example, some of them claim that they can earn three times what they can earn in small villages.",
+        "error_span": "claims",
+        "correction": "claim"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Subject-Verb Agreement Error\n\n2. WHAT IT IS: This error occurs when the subject and the verb in a sentence do not match in number. In English, singular subjects need singular verbs, and plural subjects need plural verbs.\n\n3. WHY IT IS DIFFICULT: English can be tricky because the form of the verb changes depending on whether the subject is singular or plural. This can be confusing, especially when the subject is not immediately before the verb or when the subject is a collective noun or an indefinite pronoun.\n\n4. HOW TO FIX IT: To fix this error, identify the subject of the sentence and determine if it is singular or plural. Then, make sure the verb matches the subject in number. For example, if the subject is \"music\" (singular), the verb should be \"is\" (singular), not \"are\" (plural).\n\n5. CORPUS INSIGHT: In real learner writing, this error often happens when the subject is separated from the verb by other words or phrases, making it harder to see the connection between them. For example, in \"I am one of those people who refuse to lie,\" the subject \"people\" is plural, so the verb \"refuse\" should also be plural.\n\n6. EXAMPLE: \n   - Before: \"Because the Beetles was performing there.\"\n   - After: \"Because the Beetles were performing there.\"\n   - Explanation: \"The Beetles\" is a plural subject, so the verb should be \"were\" to match the plural subject. This ensures that the subject and verb agree in number.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:VERB:SVA",
+      "r verb sva",
+      "sva"
+    ]
+  },
+  "U:PREP": {
+    "error_type": "U:PREP",
+    "tier": 2,
+    "frequency": 945,
+    "frequency_pct": 1.88,
+    "examples": [
+      {
+        "original_sentence": "On the next day, I went to Disneyland and really enjoyed myself in there.",
+        "corrected_sentence": "The next day, I went to Disneyland and really enjoyed myself there.",
+        "error_span": "On the",
+        "correction": "The"
+      },
+      {
+        "original_sentence": "During these days the rockets from Elon Musk and others are tested for safety, comfort and so on.",
+        "corrected_sentence": "These days, the rockets from Elon Musk and others are tested for safety, comfort, and so on.",
+        "error_span": "During these",
+        "correction": "These"
+      },
+      {
+        "original_sentence": "In these days, making connection and going abroad are increasing.",
+        "corrected_sentence": "These days, making connections and going abroad are phenomena that are increasing.",
+        "error_span": "In these",
+        "correction": "These"
+      },
+      {
+        "original_sentence": "During summer is the best time to eat ice cream , drink cool soda and swimming .",
+        "corrected_sentence": "Summer is the best time to eat ice cream , drink cool soda, and go swimming .",
+        "error_span": "During summer",
+        "correction": "Summer"
+      },
+      {
+        "original_sentence": "In there you can visit Nature park, HCM museums and vegetagrain.",
+        "corrected_sentence": "There you can visit Nature park, HCM museums and vegetagrain.",
+        "error_span": "In there",
+        "correction": "There"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Unnecessary Prepositions\n\n2. WHAT IT IS: This error occurs when a preposition is used where it is not needed, often before time expressions or locations.\n\n3. WHY IT IS DIFFICULT: English prepositions can be tricky because they don't always have direct equivalents in other languages, and their usage can vary depending on context. Learners might add prepositions where they seem logical based on their native language or previous learning experiences.\n\n4. HOW TO FIX IT: When describing time periods or locations, consider if the preposition is necessary. For example, \"the next day\" or \"these days\" do not need prepositions like \"on\" or \"in\" before them. Similarly, \"there\" often stands alone without \"in.\"\n\n5. CORPUS INSIGHT: A common pattern in learner writing is the addition of prepositions like \"on,\" \"in,\" or \"during\" before expressions of time or place, where they are not needed in English.\n\n6. EXAMPLE: \n   - Before: \"On the next day, I went to Disneyland.\"\n   - After: \"The next day, I went to Disneyland.\"\n   - Explanation: The preposition \"on\" is not needed before \"the next day\" because the phrase already clearly indicates a time period.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "U:PREP",
+      "u prep",
+      "prep"
+    ]
+  },
+  "M:VERB": {
+    "error_type": "M:VERB",
+    "tier": 2,
+    "frequency": 919,
+    "frequency_pct": 1.83,
+    "examples": [
+      {
+        "original_sentence": "About our puppies, they are easy to raise, you just need to take their food which we put in their caves, and give it to them 2 times each in breakfast and the afternoon.",
+        "corrected_sentence": "Thinking about our puppies, they are easy to take care of, you just need to take their food which we put in their dens, and give it to them 2 times a day, at breakfast and in the afternoon.",
+        "error_span": "About",
+        "correction": "Thinking about"
+      },
+      {
+        "original_sentence": "About what I like to eat, I'd love eating a steak tartare, I could take a red wine bottle, is perfect with meat and I know you'd love it.",
+        "corrected_sentence": "Thinking about what I like to eat, I'd love to eat a steak tartare, I could take a bottle of red wine, it is perfect with meat and I know you'd love it.",
+        "error_span": "About",
+        "correction": "Thinking about"
+      },
+      {
+        "original_sentence": "About studying English, I study it every day, especially in the nights when I finish do the dishes.",
+        "corrected_sentence": "Thinking about studying English, I study it every day, especially at night when I finish doing the dishes.",
+        "error_span": "About",
+        "correction": "Thinking about"
+      },
+      {
+        "original_sentence": "Video games is a danger or not.",
+        "corrected_sentence": "Are video games a danger or not?",
+        "error_span": "Video",
+        "correction": "Are video"
+      },
+      {
+        "original_sentence": "About office design, I believe an open space is more efficient than an enclosed workstation.",
+        "corrected_sentence": "Talking about office design, I believe an open space is more efficient than an enclosed workstation.",
+        "error_span": "About",
+        "correction": "Talking about"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Misuse of Introductory Phrases\n\n2. WHAT IT IS: This error involves using the word \"about\" incorrectly at the beginning of a sentence when introducing a topic or idea. Instead of \"about,\" more specific phrases like \"thinking about\" or \"talking about\" are often needed to clearly convey the intended meaning.\n\n3. WHY IT IS DIFFICULT: This is a common challenge for English learners because many languages use a single word to introduce topics or ideas, and \"about\" seems like a simple choice. However, English often requires more specific introductory phrases to clarify the context or action related to the topic.\n\n4. HOW TO FIX IT: When you want to introduce a topic or idea, think about the action or context you are describing. If you are considering or reflecting on something, use \"thinking about.\" If you are discussing or explaining something, use \"talking about.\" This will help make your sentence clearer and more precise.\n\n5. CORPUS INSIGHT: In the examples provided, learners frequently use \"about\" at the beginning of sentences to introduce a topic. However, the corrected sentences show that more specific phrases like \"thinking about\" or \"talking about\" are needed to properly convey the intended meaning.\n\n6. EXAMPLE: \n   - Before: About studying English, I study it every day.\n   - After: Thinking about studying English, I study it every day.\n   - Explanation: The original sentence uses \"about\" to introduce the topic, but it is unclear. By changing it to \"thinking about,\" the sentence clearly indicates that the speaker is reflecting on their study habits.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "M:VERB",
+      "m verb",
+      "verb"
+    ]
+  },
+  "R:PRON": {
+    "error_type": "R:PRON",
+    "tier": 2,
+    "frequency": 889,
+    "frequency_pct": 1.77,
+    "examples": [
+      {
+        "original_sentence": "I could not imagine the changes that is going to happen to the roads, but I do not think it will be the same.",
+        "corrected_sentence": "I could not imagine the changes that are going to happen to the roads, but I do not think they will be the same.",
+        "error_span": "it",
+        "correction": "they"
+      },
+      {
+        "original_sentence": "In fact it has another side of mental benefits , including a positive attitude, high self- esteem and the production of endorphins which act as a natutral painkiller.",
+        "corrected_sentence": "In fact, there are also mental benefits , including a positive attitude, high self-esteem and the production of endorphins, which act as a natural painkiller.",
+        "error_span": "it",
+        "correction": "there"
+      },
+      {
+        "original_sentence": "Some especialists says that the games can help children to be more concentrate, more calm, and playing games can improve their ability to think faster and it could help they to solve complex problems.",
+        "corrected_sentence": "Some experts says that the games can help children to be more concentrated and calmer, and playing games can improve their ability to think faster, and it could help them to solve complex problems.",
+        "error_span": "they",
+        "correction": "them"
+      },
+      {
+        "original_sentence": "Before asking that, why not know the students better, make an analysis to find out which way, each one of them, would learn better?",
+        "corrected_sentence": "Before asking that, why not get to know the students better and make an analysis to find out which way each one of them would learn better?",
+        "error_span": "them,",
+        "correction": "them"
+      },
+      {
+        "original_sentence": "I know that money is not all in the life but money can solve many things in your life that they are very important for your health.",
+        "corrected_sentence": "I know that money is not everything in life, but money can solve many things in your life that are very important for your health.",
+        "error_span": "all",
+        "correction": "everything"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Pronoun Confusion\n\n2. WHAT IT IS: This error involves using the wrong pronoun in a sentence, which can lead to confusion about what or whom you are referring to.\n\n3. WHY IT IS DIFFICULT: English pronouns can be tricky because they change based on number (singular or plural), gender, and case (subject or object). Learners often struggle with choosing the correct pronoun, especially when the sentence structure is complex or when the pronoun refers back to something mentioned earlier in the text.\n\n4. HOW TO FIX IT: To choose the correct pronoun, first identify what the pronoun is replacing. Determine if it is singular or plural, and whether it is the subject or object of the sentence. Use \"it\" for singular, non-human subjects, \"they\" for plural subjects, and \"them\" for plural objects.\n\n5. CORPUS INSIGHT: A common pattern in learner writing is the incorrect use of \"it\" instead of \"they\" when referring to plural nouns, or using \"they\" instead of \"them\" when the pronoun should be in the object position.\n\n6. EXAMPLE: \n   - Before: \"I could not imagine the changes that is going to happen to the roads, but I do not think it will be the same.\"\n   - After: \"I could not imagine the changes that are going to happen to the roads, but I do not think they will be the same.\"\n   - Explanation: The word \"changes\" is plural, so the correct pronoun is \"they,\" not \"it.\" This helps clarify that you are talking about multiple changes, not just one.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:PRON",
+      "r pron",
+      "pron"
+    ]
+  },
+  "M:PRON": {
+    "error_type": "M:PRON",
+    "tier": 2,
+    "frequency": 827,
+    "frequency_pct": 1.65,
+    "examples": [
+      {
+        "original_sentence": "Hope we could meet agin as fast as we could.",
+        "corrected_sentence": "I hope we can meet again as soon as possible.",
+        "error_span": "Hope",
+        "correction": "I hope"
+      },
+      {
+        "original_sentence": "Is a fact that nowadays there are many students who choose to study abroad, most of them in order to learn another language.",
+        "corrected_sentence": "It is a fact that nowadays there are many students who choose to study abroad, most of them in order to learn another language.",
+        "error_span": "Is",
+        "correction": "It is"
+      },
+      {
+        "original_sentence": "Usually enjoy the meal with family and friends, and after the cake with the candles and siging the traditinal \"Cumplea\\u00F1os feliz\" is when gifs are delivered.",
+        "corrected_sentence": "We usually enjoy a meal with family and friends, and after that the cake with the candles and singing the traditional \"Cumplea\\u00F1os feliz.\" This is when gifts are delivered.",
+        "error_span": "Usually",
+        "correction": "We usually"
+      },
+      {
+        "original_sentence": "Will gladly take even just 50 years of waking up most mornings without a hangover and instead spending time with family.",
+        "corrected_sentence": "I will gladly take even just 50 years of waking up most mornings without a hangover and instead spending time with family.",
+        "error_span": "Will",
+        "correction": "I will"
+      },
+      {
+        "original_sentence": "Is completely dreadful when do you need some facilities and it is so rarely even more if we are talking about health needs.",
+        "corrected_sentence": "It is completely dreadful when you need some facilities and it is so rare, even more if we are talking about health needs.",
+        "error_span": "Is",
+        "correction": "It is"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Missing Subject Pronoun\n\n2. WHAT IT IS: This error occurs when a sentence is missing a subject pronoun, such as \"I,\" \"it,\" or \"we,\" which is necessary to indicate who or what is performing the action in the sentence.\n\n3. WHY IT IS DIFFICULT: English sentences usually require a subject, even if it seems obvious or unnecessary. In some languages, the subject can be omitted if it is understood from context, but in English, leaving out the subject pronoun can make sentences incomplete or unclear.\n\n4. HOW TO FIX IT: Always check that your sentences have a subject pronoun. Ask yourself, \"Who or what is doing the action?\" If it's not clear, add the appropriate pronoun like \"I,\" \"it,\" or \"we\" at the beginning of the sentence.\n\n5. CORPUS INSIGHT: In the examples provided, sentences often start with a verb or an adjective but are missing the subject pronoun. This can make the sentence sound abrupt or incomplete.\n\n6. EXAMPLE: \n   - Before: \"Is a fact that nowadays there are many students who choose to study abroad.\"\n   - After: \"It is a fact that nowadays there are many students who choose to study abroad.\"\n   - Explanation: The sentence was missing the subject pronoun \"It\" at the beginning. Adding \"It\" clarifies what the sentence is about and makes it complete.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "M:PRON",
+      "m pron",
+      "pron"
+    ]
+  },
+  "R:WO": {
+    "error_type": "R:WO",
+    "tier": 2,
+    "frequency": 657,
+    "frequency_pct": 1.31,
+    "examples": [
+      {
+        "original_sentence": "I even can't go to sleep with the music on.",
+        "corrected_sentence": "I can't even go to sleep with music on.",
+        "error_span": "even can't",
+        "correction": "can't even"
+      },
+      {
+        "original_sentence": "Especially I like the moment I open presents's best friends. Because I'm quite curious so I'm so excited to do that.",
+        "corrected_sentence": "I especially like the moment I open presents from best friends because I'm quite curious, so I'm so excited to do that.",
+        "error_span": "Especially I",
+        "correction": "I especially"
+      },
+      {
+        "original_sentence": "In this days, balancing between the practical work and theoretical is one of the most important conflict in education system.",
+        "corrected_sentence": "These days, balancing the practical and theoretical work is one of the most important conflicts in the education system.",
+        "error_span": "work and theoretical",
+        "correction": "and theoretical work"
+      },
+      {
+        "original_sentence": "Don't matter where in which part of the globe you are, always will be a person who speaks English and it is good.",
+        "corrected_sentence": "It doesn't matter in which part of the globe you are, there will always be a person who speaks English and this is good.",
+        "error_span": "always will",
+        "correction": "will always"
+      },
+      {
+        "original_sentence": "Neither people have a drink nor read books in the library.",
+        "corrected_sentence": "People neither have a drink nor read books in a library.",
+        "error_span": "Neither people",
+        "correction": "People neither"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Word Order Mistakes\n\n2. WHAT IT IS: This error involves using the wrong order of words in a sentence, which can change the meaning or make the sentence sound unnatural. It often happens with adverbs, phrases, or clauses that are placed incorrectly.\n\n3. WHY IT IS DIFFICULT: English word order can be tricky because it often differs from other languages. Learners might transfer word order patterns from their native language, leading to mistakes. Additionally, English has specific rules for where words like adverbs should go, which can be confusing.\n\n4. HOW TO FIX IT: Pay attention to the typical order of words in English sentences. For example, adverbs like \"always\" or \"especially\" usually come before the main verb or after the auxiliary verb. Practice by reading and listening to English sentences and noticing where these words are placed.\n\n5. CORPUS INSIGHT: Learners often place adverbs or phrases at the beginning of a sentence when they should be in the middle or after the verb. For example, in \"I even can't,\" \"even\" should come after \"can't.\"\n\n6. EXAMPLE: \n   - Before: \"I even can't go to sleep with the music on.\"\n   - After: \"I can't even go to sleep with music on.\"\n   - Explanation: In the corrected sentence, \"even\" is placed after \"can't,\" which is the correct position for this adverb, making the sentence sound natural.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:WO",
+      "r wo",
+      "wo"
+    ]
+  },
+  "R:ADJ": {
+    "error_type": "R:ADJ",
+    "tier": 2,
+    "frequency": 622,
+    "frequency_pct": 1.24,
+    "examples": [
+      {
+        "original_sentence": "You will never have a formula to calculate how well is one's life to some the same experience might have a different mark.",
+        "corrected_sentence": "You will never have a formula to calculate how good is one's life. For some, the same experience might have a different mark.",
+        "error_span": "well",
+        "correction": "good"
+      },
+      {
+        "original_sentence": "I am really fond of exercising like run, work out and yoga by following trainers on Youtube because exercising strengthens me and helps me to lose my weight.",
+        "corrected_sentence": "I am really fond of exercising like running, working out and yoga by following trainers on Youtube because exercising strengthens me and helps me to lose weight.",
+        "error_span": "run,",
+        "correction": "running,"
+      },
+      {
+        "original_sentence": "when I have much times I'm going to ride my lovely bike and go for a long distance.",
+        "corrected_sentence": "When I have more time, I'm going to ride my lovely bike and go for a long distance trip.",
+        "error_span": "much",
+        "correction": "more"
+      },
+      {
+        "original_sentence": "Most people claim that music talent is innert and you can't do anything to change that if you didn't inharit that in a moment of your birth .",
+        "corrected_sentence": "Most people claim that music talent is innate and you can't do anything to change that if you didn't inherit that at the moment of your birth .",
+        "error_span": "innert",
+        "correction": "innate"
+      },
+      {
+        "original_sentence": "During this lately years junk food and gummies have became the most crucial food for kids, and because of the certain amount of restaurants of fast food, this habit of eating unhealthy food has became more bigger.",
+        "corrected_sentence": "During these recent years junk food and gummies have became the most crucial food for kids, and because of the certain amount of restaurants of fast food, this habit of eating unhealthy food has became bigger.",
+        "error_span": "lately",
+        "correction": "recent"
+      }
+    ],
+    "explanation": "1. ERROR TYPE: Adjective and Adverb Confusion\n\n2. WHAT IT IS: This error involves using the wrong form of a word, specifically confusing adjectives and adverbs, or choosing the incorrect adjective form. Adjectives describe nouns, while adverbs typically modify verbs, adjectives, or other adverbs.\n\n3. WHY IT IS DIFFICULT: This is a common challenge for English learners because many words in English can serve as both adjectives and adverbs, but their forms and uses can change. Additionally, some adjectives have irregular forms or are easily confused with similar-sounding words, making it tricky to choose the correct one.\n\n4. HOW TO FIX IT: To fix this error, remember that adjectives describe nouns (e.g., \"good book\"), while adverbs modify verbs, adjectives, or other adverbs (e.g., \"runs well\"). If you're unsure, try identifying what the word is describing or modifying. Also, familiarize yourself with common irregular adjectives and their correct forms.\n\n5. CORPUS INSIGHT: In real learner writing, this error often occurs when learners choose a word that sounds similar to the correct adjective or when they use an adverb instead of an adjective. For example, \"well\" was used instead of \"good,\" and \"lately\" was used instead of \"recent.\"\n\n6. EXAMPLE: \n   - Before: \"You will never have a formula to calculate how well is one's life.\"\n   - After: \"You will never have a formula to calculate how good is one's life.\"\n   - Explanation: In this example, \"well\" is an adverb, but the sentence needs an adjective to describe \"life,\" so \"good\" is the correct choice.",
+    "manually_reviewed": false,
+    "retrieval_keys": [
+      "R:ADJ",
+      "r adj",
+      "adj"
+    ]
+  }
+}
